@@ -181,12 +181,30 @@ body {
     height: 5vh;
     max-width: 100%;
     font-size: 2em;
-    display: block;
     justify-content: center;
-    text-align: center;
     margin-top: 40px;
     padding: 1px;
+    background-color: #8cc444;
 
+}
+.animated-h2{
+    color: #ffffff;
+    position: relative;
+}
+span{
+    position: absolute;
+    right: 0;
+    width: 0;
+    background: #fff;
+    animation: letras 2s infinite alternate steps(25) ;
+}
+@keyframes letras {
+    from {
+        width: 100%;
+    }
+    to{
+        width: 0;
+    }
 }
 
 .description {
