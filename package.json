@@ -1,0 +1,22 @@
+{
+  "name": "ruralcheck",
+  "version": "1.0.0",
+  "description": "proyecto ruralcheck",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pminghetti/RuralCheck.git"
+  },
+  "author": "Patricio Minghetti",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pminghetti/RuralCheck/issues"
+  },
+  "homepage": "https://github.com/pminghetti/RuralCheck#readme",
+  "devDependencies": {
+    "node-sass": "^7.0.1"
+  }
+}
