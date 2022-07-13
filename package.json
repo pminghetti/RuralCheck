@@ -4,7 +4,7 @@
   "description": "proyecto ruralcheck",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build":"node-sass --include-path sass ./sass/index.scss ./css/style.css -w"
   },
   "repository": {
     "type": "git",
