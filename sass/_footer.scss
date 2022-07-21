@@ -62,6 +62,16 @@
   &.grupo-2 small {
     font-size: 15px;
   }
+  
+}
+$colorredessociales:(
+    a : #8cc444,
+    );
+
+@each $color in $colorredessociales {
+  .pie-pagina a #{color}{
+    color: $color;
+  }
 }
 
 
