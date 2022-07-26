@@ -33,7 +33,7 @@ $color:white;
     margin-top: 25px;
     margin-bottom: 20px;
     &div {
-      padding: 10px;
+      padding: 30px;
       min-width: 300px;
       display: flex;
       justify-content: space-evenly;
@@ -64,6 +64,13 @@ $color:white;
     .cards-cont{
       @include cards($color);
     }
+  }
+  .cards div{ 
+      padding: 30px;
+      min-width: 300px;
+      display: flex;
+      justify-content: space-evenly;
+      margin-bottom: 10px;
   }
   
   /*-----------media query section-1-------------------------*/
